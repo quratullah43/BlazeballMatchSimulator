@@ -11,49 +11,49 @@ extension League {
     static let allLeagues: [League] = [
         League(
             id: "epl",
-            name: "Royal League",
+            name: "Red League",
             country: "England",
             teams: Team.royalLeagueTeams
         ),
         League(
             id: "laliga",
-            name: "Sol Liga",
+            name: "White Liga",
             country: "Spain",
             teams: Team.solLigaTeams
         ),
         League(
             id: "bundesliga",
-            name: "Kaiser Liga",
+            name: "Black Liga",
             country: "Germany",
             teams: Team.kaiserLigaTeams
         ),
         League(
             id: "seriea",
-            name: "Prima Serie",
+            name: "Red Serie",
             country: "Italy",
             teams: Team.primaSerieTeams
         ),
         League(
             id: "ligue1",
-            name: "Grande Ligue",
+            name: "White Ligue",
             country: "France",
             teams: Team.grandeLigueTeams
         ),
         League(
             id: "eredivisie",
-            name: "Oranje Liga",
+            name: "Green Liga",
             country: "Netherlands",
             teams: Team.oranjeLigaTeams
         ),
         League(
             id: "primeiraliga",
-            name: "Costa Liga",
+            name: "Red Liga",
             country: "Portugal",
             teams: Team.costaLigaTeams
         ),
         League(
             id: "mls",
-            name: "Stars League",
+            name: "Blue League",
             country: "USA",
             teams: Team.starsLeagueTeams
         )
